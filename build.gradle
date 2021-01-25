@@ -36,8 +36,8 @@ dependencies {// 프로젝트 개발에 필요한 의존성들을 선언하는 �
     implementation('com.h2database:h2')
 
     implementation('org.springframework.boot:spring-boot-starter-oauth2-client') // 권한 관련
-    //implementation('org.springframework.session:spring-session-jdbc') // 권한 관련
+    implementation('org.springframework.session:spring-session-jdbc') // 권한 관련
 
     testImplementation('org.springframework.boot:spring-boot-starter-test')
-    //testImplementation("org.springframework.security:spring-security-test") // 권한 관련
+    testImplementation("org.springframework.security:spring-security-test") // 권한 관련
 }
