@@ -56,6 +56,7 @@ _책에 구글 서비스 등록 방법은 자세히 나와있으므로 생략_
     
 ** CustomOAuth2UserService **
 * 구글에서 가져온 사용자의 정보를 기반으로 가입, 세션 저장등의 기능 수행
+<<<<<<< HEAD
 ![](https://images.velog.io/images/donglee99/post/e9a55c51-1149-465d-9fca-1b27c73d7223/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202021-01-26%20%EC%98%A4%ED%9B%84%203.14.15.png)
 	
    _슬슬 책을 따라가는데 벽이 느껴진다..._
@@ -71,3 +72,6 @@ _책에 구글 서비스 등록 방법은 자세히 나와있으므로 생략_
 바로``` OAuthAttributes```이다 위에서 OAuth2UserService 를 통해 가져온 attribute를 담은 클래스라 했는데 코드를 보면 of 안에서 ```registrationId```를 통해 ```naver```와 ```google``` 두가지를 판별해 다른 메서드로 연결을 해준다. 이후 각 소셜 로그인에 맞는 attribute를 처리 해준다.
 
 ---
+=======
+![](https://images.velog.io/images/donglee99/post/e9a55c51-1149-465d-9fca-1b27c73d7223/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202021-01-26%20%EC%98%A4%ED%9B%84%203.14.15.png)
+>>>>>>> 917e86e152d7bf8b83e8ed313bc632d5b6cbc767
